@@ -74,3 +74,40 @@ void CCardDIg::OnRadioFemale()
 	m_bSex = FALSE;
 }
 ```
+
+그리고 나서 IDC_CHECK_READING 항목에서 BN_CLICKED 를 선택하고 다음과 같은 코드를 작성한다.
+
+```ruby
+void CCardDIg::OnClickedCheckReading()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	m_bHobby[0] = !m_bHobby[0];
+}
+```
+
+그리고 똑같이 IDC_CHECK_SPORTS 에도 똑같이 다음과 같은 코드를 작성한다.
+
+```ruby
+void CCardDIg::OnClickedCheckSports()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	m_bHobby[1] = !m_bHobby[1];
+}
+```
+
+그리고 똑같이 IDC_CHECK_FISHING 에도 똑같이 다음과 같은 코드를 작성한다.
+
+```ruby
+void CCardDIg::OnClickedCheckFishing()
+{
+	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
+	m_bHobby[2] = !m_bHobby[2];
+}
+```
+
+그리고 나서 CStudyCardView 클래스에서 학생 정보 저장에 필요한 4개의 멤버 변수를 추가한다.
+
+| 변수 형식 | 변수 이름 | 용도 |
+|---|---|---|
+| CString | m_strDept | 학과을 저장하기 위한 변수 |
+| CString | m_strName | 
