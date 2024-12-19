@@ -27,5 +27,7 @@ MFC에서는 도큐먼트 클래스가 자기 자신의 데이터를 관리하�
 [ 실습 1 ]
 https://github.com/Hancho0/7-study/blob/main/README2.md
 
+[ 실습 2 ]
+https://github.com/Hancho0/7-study/blob/main/README3.md
 
 
