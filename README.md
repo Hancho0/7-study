@@ -24,3 +24,8 @@ Carchive 클래스에서 "저장"의 의미는 메모리에 있는 데이터가 
 직렬화의 기본적인 기능은 CObject 클래스의 Serialize() 함수에 정의되어 있다.<br>
 MFC에서는 도큐먼트 클래스가 자기 자신의 데이터를 관리하므로 도큐먼트 클래스에서 Serialize() 함수를 오버라이딩 하면 된다.
 
+[ 실습 1 ]
+https://github.com/Hancho0/7-study/blob/main/README2.md
+
+
+
